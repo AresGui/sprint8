@@ -5,7 +5,7 @@ export const NavWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #222222;
+  background-color: rgba(35,31,32,255);
 `;
 
 export const LogoWrapper = styled.div`
@@ -23,15 +23,17 @@ export const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: row;
   color: #666666;
-`;
+  align-items: center;
 
-export const Button = styled.button`
-  margin: 5px;
-  background-color: #222222;
-  color: #afacac;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
+  a {
+    margin: 10px;
+    background-color: rgba(35,31,32,255);
+    color: #afacac;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;  
+    text-decoration:none;
+  }
 `;
 
 export const NavLinksWrapper = styled.div`
@@ -39,7 +41,7 @@ export const NavLinksWrapper = styled.div`
   border-top: #666666 solid;
   border-bottom: #666666 solid;
   justify-content: center;
-  background-color: #222222;
+  background-color: rgba(35,31,32,255);
 
   a { 
     text-decoration: none;

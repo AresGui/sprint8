@@ -6,15 +6,15 @@ export const StarshipsWrapper = styled.div`
     margin: 0 200px;
 `;
 
-export const Starship = styled.div`
+export const Starship = styled.button`
     width: calc(100 % - 30px);
     margin: 15px;
-    background-color: #2e2d2d;
+    background-color: #2b2929;
     color: #afacac;
     border: none;
     cursor: pointer;
     padding: 5px 15px;
-
+    text-align: left
 `;
 
 export const MoreButtonWrapper = styled.div`
